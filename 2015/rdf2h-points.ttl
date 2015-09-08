@@ -1,4 +1,4 @@
-@base <http://rdf2h.github.io/2015/rdf2h-points#> .
+@base <http://rdf2h.github.io/2015/rdf2h-points> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -10,23 +10,23 @@
     process that may be used by handlers to align there position with 
     r2h:before without knowing the other handlers that might be in use."""@en.
 
-<top> rdfs:comment "In principle nothing should come before this."@en;
+:top rdfs:comment "In principle nothing should come before this."@en;
     r2h:before <highly-specific>.
  
 
-<highly-specific> rdfs:comment "This point is immediately followed by highly specific matchers"@en;
+:highly-specific rdfs:comment "This point is immediately followed by highly specific matchers"@en;
     r2h:before <specific>.
 
-<specific> rdfs:comment "This point is immediately followed by specific matchers"@en;
+:specific rdfs:comment "This point is immediately followed by specific matchers"@en;
     r2h:before <average>.
 
-<average> rdfs:comment "This point is immediately followed by average positioned matchers"@en;
+:average rdfs:comment "This point is immediately followed by average positioned matchers"@en;
     r2h:before <generic>.
 
-<generic> rdfs:comment "This point is immediately followed by generic matchers"@en;
+:generic rdfs:comment "This point is immediately followed by generic matchers"@en;
     r2h:before <fallback>.
 
-<fallback> rdfs:comment "This point is immediately followed by fallback matchers"@en;
+:fallback rdfs:comment "This point is immediately followed by fallback matchers"@en;
     r2h:before <end>.
 
-<end> rdfs:comment "In principle nothing should be after this"@en.
+:end rdfs:comment "In principle nothing should be after this"@en.
