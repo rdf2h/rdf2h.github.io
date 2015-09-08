@@ -7,8 +7,8 @@
 @prefix r2h: <http://rdf2h.github.io/2015/rdf2h#> .
 
 <> rdfs:comment """This document defines some points in the RDF2h handling 
-    process that may be used by handlers to allign there position with 
-    r2h:before without knowing the other handlers that might be in use.""""@en.
+    process that may be used by handlers to align there position with 
+    r2h:before without knowing the other handlers that might be in use."""@en.
 
 <top> rdfs:comment "In principle nothing should come before this."@en;
     r2h:before <highly-specific>.
