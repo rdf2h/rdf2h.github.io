@@ -1,0 +1,130 @@
+::selection {
+  background-color: #d7d4f0;
+}
+
+a {
+  border-bottom: 1px solid #ddd;
+  padding: 4px 0;
+  margin: 0;
+  color: #555;
+}
+
+a:hover {
+  color: #ddd;
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+body {
+  border-right: 1px solid #ddd;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2 !important;
+}
+
+body>* {
+  background-color: #f7f7f7;
+}
+
+section {
+  border-top: 1px solid #ddd;
+  padding: 30px 0;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body>section {
+  padding: 30px;
+  padding-bottom: 20px;
+}
+
+section>code,
+section>pre,
+.code {
+  color: #555;
+  padding: 4px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+code,
+.code,
+.CodeMirror {
+  font-family: 'Fira Code', monospace !important;
+  font-size: .75rem;
+}
+
+.CodeMirror {
+  min-height: 37px;
+}
+
+.rand {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 0;
+  margin: 8px 0;
+}
+
+.btn-svg {
+  float: right;
+  border: none;
+  background-color: #ffffff00;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-svg svg {
+  margin: .4em;
+}
+
+.btn-svg:hover path {
+  fill: #ddd !important;
+}
+
+.btn-svg path {
+  fill: #555 !important;
+}
+
+.result-bg {
+  padding: 4px;
+  margin: 8px 0 8px 29px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.c-red {
+  color: #a11;
+}
+
+.c-dark {
+  color: #555;
+}
+
+.c-blue {
+  color: #219;
+}
+
+.c-violet {
+  color: #708;
+}
+
+.c-green {
+  color: #085;
+}
+
+.w-100 {
+  width: 100%;
+  margin: 0;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
